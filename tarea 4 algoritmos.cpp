@@ -59,7 +59,7 @@ int main()
 		printf("\t\t|     2.- Estandar                |\n");
 		printf("\t\t|_________________________________|\n");
 		scanf("%i", &o);
-		
+		printf ("imprime valor de o %i",o);
 		
 		if (o== 1)
 		{
@@ -75,7 +75,7 @@ int main()
 			printf("\t\t|     3.-Salir                          |\n");
 			printf("\t\t|_______________________________________|\n");
 			scanf("%i", &e);
-		}
+	
 
 		if (e == 1)
 		{
@@ -253,8 +253,11 @@ int main()
 			                                                       		  {
 				                                                printf ("\t\t mensualidades a pagar es de: %i \n",mensualidades,x);
 																   }}	
+						
+				printf ("imprime valor de o %i",o);														  
+				} 
 		if (o== 2)
-		{
+		{ 
 			printf("\t\t****************************************************\n");
 			printf("\t\t                     Audi Estandar                \n");
 			printf("\t\t****************************************************\n");
@@ -267,7 +270,7 @@ int main()
 			printf("\t\t|     3.-Salir                          |\n");
 			printf("\t\t|_______________________________________|\n");
 			scanf("%i", &n);
-		}
+		
 	if (n == 1)////////////////////
 		{
 			printf("\t\t****************************************************\n");
@@ -441,10 +444,11 @@ int main()
 				                                                printf ("\t\t mensualidades a pagar es de: %i \n",mensualidades,x);
 																   }}
 	                                         
+											 }
 																   
 																   
 	                                                       
-
+break;
 
 
 
